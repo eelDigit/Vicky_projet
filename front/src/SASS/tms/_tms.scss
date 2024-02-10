@@ -1,0 +1,14 @@
+@use "../generalities/variables";
+
+.tms-1{
+    font-family: variables.$text-font;
+}
+
+.explication-tms{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 10em;
+    border: none;
+    padding: 10em;
+    padding: 4em;
+}

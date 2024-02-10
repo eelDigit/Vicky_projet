@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "65b28992835bac7956ccad9c"
+  },
+  "name": "NONO",
+  "firstName": "papa",
+  "email": "azer@azer",
+  "password": "$2b$10$ZioShqrIlbuuwqj4g/Rzx.7Iqi4EAkQYfYuCLgtf62/9Ya5tTmw.C",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-25T16:17:22.100Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-25T16:17:22.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b6a6c1584f4004c2e91d3a"
+  },
+  "name": "NANA",
+  "firstName": "popo",
+  "email": "azer@azer.fr",
+  "password": "$2b$10$vszvPR6Aj5ZlXJ6PbUbgHu0S11fewdXsf.chjn1FgrXkBUUzSh3da",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-28T19:10:57.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-28T19:10:57.356Z"
+  },
+  "__v": 0
+}]

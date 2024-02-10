@@ -1,0 +1,44 @@
+@use "../generalities/variables";
+
+.presentation {
+  font-family: variables.$text-font;
+}
+
+.encard-4-presentation {
+  background-color: variables.$opacity-salmon;
+  color: variables.$marron;
+  padding: 4em;
+  text-align: center;
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  // p {
+  //   scroll-padding-inline-start: 20em;
+  //   padding-top: 5em;
+  //   font-size: 1em;
+  // }
+}
+
+.parcours {
+  background-color: variables.$opacity-salmon;
+  color: variables.$marron;
+  text-align: center;
+  font-weight: bold;
+  margin: 10em;
+  border: none;
+  padding: 5em;
+  text-decoration: none;
+  p {
+    margin: 20em;
+
+    background-color: aqua;
+  }
+  button{
+    text-decoration: none;
+  }
+}

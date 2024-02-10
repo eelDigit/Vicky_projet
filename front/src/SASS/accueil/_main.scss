@@ -1,0 +1,102 @@
+@use "../generalities/variables";
+
+.accueil {
+  p {
+    @include text-style;
+  }
+}
+a {
+  @include text-style;
+  text-decoration: none;
+}
+
+.encard {
+  background-color: variables.$opacity-salmon;
+  padding: 2em;
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  p {
+    padding-top: 0.5em;
+    font-size: 0.8em;
+  }
+}
+
+// button {
+//   border: none;
+//   border-radius: 10px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   margin: 0 auto;
+//   font-size: 1.6em;
+// }
+
+.button-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.individual {
+  background-color: variables.$salmon;
+  color: variables.$marron;
+  margin: 5em auto;
+  padding: 3em;
+}
+
+.firm {
+  background-color: variables.$salmon;
+  color: variables.$marron;
+  margin: 5em auto;
+  padding: 3em;
+}
+
+.clot {
+  @include display;
+}
+.yves{
+  color: variables.$marron;
+}
+
+.mains {
+  background-image: url(./assets/images/mains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  margin: 5em auto;
+  padding-left: 4em;
+  padding-right: 8em;
+  padding-top: 4.5em;
+  height: 16em;
+  width: 30%;
+}
+
+.stethoscope {
+  background-image: url(./assets/images/stethoscope.jpg);
+  background-size: cover;
+  background-position: center;
+  color: variables.$white;
+  text-shadow: 4px 4px 4px variables.$black;
+  margin: 5em auto;
+  padding: 5em;
+  height: 6em;
+  width: 17em;
+}
+
+// tablette
+// button {
+//   border: none;
+//   border-radius: 10px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   margin: 0 auto;
+//   font-size: 1.6em;
+// }

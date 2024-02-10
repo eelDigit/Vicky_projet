@@ -1,0 +1,29 @@
+@use "../generalities/variables";
+
+footer {
+  background-color: variables.$beige;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 2em;
+    justify-content: center;
+    font-size: em;
+
+  }
+  li {
+    padding: 1em;
+    padding-right: 3em;
+    font-family: variables.$text-font;
+
+    
+  }
+  a {
+    @include text-style;
+    text-decoration: none;
+  }
+}

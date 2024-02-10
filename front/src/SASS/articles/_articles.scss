@@ -1,0 +1,113 @@
+@use "../generalities/variables";
+
+.articles{
+    font-family: variables.$text-font;
+}
+
+.encard-articles{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    padding: 4em;
+    article{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    p{
+        padding-top: 0.5em;
+    }
+}
+
+.tms{
+    background-image: url(./assets/images/tms.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: variables.$black;
+    font-weight: bold;
+    margin: 5em auto;
+    padding: 5em;
+    height: 14em;
+    width: 18em;
+}
+
+.burn-out{
+    background-image: url(./assets/images/burnout.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: variables.$marron;
+    font-weight: bold;
+    margin: 5em auto;
+    padding: 5em;
+    height: 14em;
+    width: 18em;
+}
+
+.work-organization{
+    background-image: url(./assets/images/organization.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: variables.$marron;
+    font-weight: bold;
+    margin: 5em auto;
+    padding: 5em;
+    height: 14em;
+    width: 18em;
+}
+
+.stress{
+    background-image: url(./assets/images/stress.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: variables.$white;
+    font-weight: bold;
+    margin: 5em auto;
+    padding: 5em;
+    height: 7em;
+    width: 19em;
+}
+// span{
+//     font-size: variables.$button-text-size;
+// }
+.skills {
+    background-image: url(./assets/images/bilan-compétence.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5em auto;
+    padding: 5em;
+    height: 7em;
+    width: 19em;
+}
+
+.rps{
+    background-image: url(./assets/images/rps.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5em auto;
+    padding: 5em;
+    height: 7em;
+    width: 19em;
+}
+
+.harassment-firm{
+    background-image: url(./assets/images/harassment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: variables.$white;
+    font-weight: bold;
+    margin: 5em auto;
+    padding: 5em;
+    height: 7em;
+    width: 19em;
+}
+.articles-button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}

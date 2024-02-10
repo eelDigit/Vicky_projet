@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+
+/* -------------------------------------------------------------------------- */
+/*                                    font                                    */
+/* -------------------------------------------------------------------------- */
+
+$text-font: "Rosario", sans-serif;
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    color                                   */
+/* -------------------------------------------------------------------------- */
+
+
+$beige: #FFF2EB;
+$salmon: #EFD2C3;
+$opacity-salmon: rgb(239, 210, 195, 0.7);
+$marron: #803813;
+$white: white;
+$black: black;
+$grey: hwb(0 69% 31% / 0.274);
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  font-size                                 */
+/* -------------------------------------------------------------------------- */
+
+$text-size: 1em;
+// $button-text-size: 3em;
+
+
+
+// toujours mettre @use lors de l'utilisation de variables en import
+// lors de l'utilisation des variables -> tjrs appeler la variable : variables.+ nom de la variable
+

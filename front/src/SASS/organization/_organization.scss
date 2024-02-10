@@ -1,0 +1,14 @@
+@use "../generalities/variables";
+
+.organization-2{
+    font-family: variables.$text-font;
+}
+
+.explication-organization{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 10em;
+    border: none;
+    padding: 5em;
+
+}

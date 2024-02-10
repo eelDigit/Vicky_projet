@@ -1,0 +1,145 @@
+@use "../generalities/variables";
+
+header {
+  display: flex;
+  justify-content: center;
+
+ 
+  .burger{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    top: 30px;
+    right:50px;
+    .top,.mid,.bot{
+     background-color: black;
+     width: 50px ;
+     height: 3px;
+     margin-bottom: 0.2em;
+   }
+   }
+  
+/* -------------------------------------------------------------------------- */
+/*                                   navbar                                   */
+/* -------------------------------------------------------------------------- */
+
+  img {
+    position: absolute;
+    top:20px;
+    left:20px;
+    height: 8vh;
+    width: 8vh;
+    margin: 1em;
+    z-index: 10;
+  }
+
+  nav {
+    text-align: center;
+    background-color: variables.$beige;
+    width: 100%;
+    padding: 1em;
+    height: 15em;
+   .menu{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background-color: variables.$beige;
+      width: 100%;
+      height: 40%;
+    }
+    .visible{
+      top: 0;
+      left: 0;
+      transition: ease-in 0.5s;
+    }
+    .hidden{
+      top: -1000px;
+      left: 0;
+      transition: ease-in 0.5s;
+    }
+    .navbar_links {
+     @include display;
+     margin-top: 10em;
+   
+      list-style: none;
+    }
+
+    .navbar_link {
+      padding: 0 1em;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+ 
+
+
+  @media screen and (max-width:7670.9px){
+      .navbar_links {
+         @include display;
+     
+        }
+        .navbar_link{
+          a {
+            display: block;
+            padding: 1rem;
+            font-size: 1.6rem;
+            transition: all .4s ease-in-out;
+          };
+          a::hoover {
+            padding: 2rem;
+            letter-spacing: 5px;
+          }
+        }}
+
+// @media screen and (min-width:768px){
+//   .navbar_link {
+//     a::after {
+//       display: block;
+//       content: "";
+//       width: 0;
+//       height: 1px;
+//       background-color: red;
+//       transition: width .4s;
+//     }
+//     .navbar_link:hover{
+//       a::after {
+//         width: 100%;
+//       }
+//     }
+// }
+// }
+
+  // ul {
+  //   // display: flex;
+  //   // justify-content: space-between;
+  //   list-style: none;
+  //   width: 60%;
+  //   align-items: center;
+  //   font-size: 1.5em;
+  // }
+
+  // li {
+  //   padding: 0.5em;
+  //   a {
+  //     @include text-style;
+  //     text-decoration: none;
+  //   }
+  // }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                              button connexion                              */
+/* -------------------------------------------------------------------------- */
+.connection {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  right: 400px;
+  background-color: variables.$salmon;
+  border-radius: 10px;
+  padding: 1em;
+}

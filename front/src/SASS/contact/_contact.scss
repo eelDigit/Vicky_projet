@@ -1,0 +1,107 @@
+@use "../generalities/variables";
+
+.contact{
+    font-family: variables.$text-font;
+}
+
+.encard-contact{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+  
+      article {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    h2{
+      font-size: 2em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+    }
+    p {
+      scroll-padding-inline-start: 20em;
+      font-size: 1em;
+      padding-top: 0.5em;
+
+    }
+}
+
+.encard-formulaire{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 18em;
+    border: none;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+
+    label{
+      padding: 1em;
+    }
+}
+.lastname{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 20em;
+}
+.name{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 20em;
+}
+.phone{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 20em;
+}
+.email{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 20em;
+}
+.subject{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 20em;
+}
+.message{
+  margin: 0.5em;
+  padding: 1em;
+  padding-bottom: 20em;
+  padding-left: 2em;
+  padding-right: 20em;
+}
+
+.envoyer{
+  background-color: variables.$salmon;
+  // display: flex;
+  // flex-direction: row;
+}
+
+.confidential{
+  margin-bottom: 4.5em;
+}
+.confidential-label{
+  text-align: justify;
+}
+
+.encard-localisation{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 18em;
+    border: none;
+    padding: 5em;
+}

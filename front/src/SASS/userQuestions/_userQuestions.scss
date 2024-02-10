@@ -1,0 +1,12 @@
+@use "../generalities/variables";
+
+.container-questions-table{
+    font-family: variables.$text-font;
+}
+.questions-table{
+    .table th,
+.table td {
+	padding: 1em;
+	border: 1px solid #ddd;
+}
+}

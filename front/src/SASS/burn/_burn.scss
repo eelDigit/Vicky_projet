@@ -1,0 +1,14 @@
+@use "../generalities/variables";
+
+.burn-out-2{
+    font-family: variables.$text-font;
+}
+
+.explication-burn-out{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 10em;
+    border: none;
+    padding: 5em;
+
+}

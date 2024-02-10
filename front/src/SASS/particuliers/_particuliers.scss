@@ -1,0 +1,45 @@
+@use "../generalities/variables";
+
+.particuliers{
+    font-family: variables.$text-font;
+}
+
+.encard-3-particuliers {
+  background-color: variables.$opacity-salmon;
+  color: variables.$marron;
+  padding: 4em;
+
+    article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2{
+    font-size: 2em;
+  }
+  p {
+    scroll-padding-inline-start: 20em;
+    padding-top: 5em;
+    font-size: 1em;
+  }
+}
+
+.explication-particuliers{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 10em;
+    border: none;
+    padding: 10em;
+    padding: 4em;
+
+}
+.me-contacter{
+  background-color: variables.$salmon;
+  border: none;
+  border-radius: 10px;
+  width: auto;
+  justify-content: center;
+  padding: 1em;
+  margin-top: 2em;
+  margin-left: 40%;
+}

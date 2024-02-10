@@ -1,0 +1,18 @@
+@use"./variables";
+
+@mixin text-style {
+    font-family: variables.$text-font;
+    color: variables.$black;
+    font-size: variables.$text-size;
+}
+
+
+@mixin display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+// les mixin permettent de créer des "objets" réutilisables

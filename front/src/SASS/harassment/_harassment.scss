@@ -1,0 +1,18 @@
+@use "../generalities/variables";
+
+.harassment-2{
+    font-family: variables.$text-font;
+}
+
+.dejours{
+    color: variables.$marron;
+}
+
+.video-dejours{
+    width: 80%;
+    margin-left: 4em;
+    text-align: center;
+}
+.link-dejours{
+    text-align: center;
+}

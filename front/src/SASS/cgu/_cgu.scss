@@ -1,0 +1,28 @@
+@use "../generalities/variables";
+
+.cgu{
+    font-family: variables.$text-font;
+}
+
+h2{
+padding: 1em;
+text-align: center;
+}
+
+h3{
+    padding-bottom: 1em;
+}
+
+// .form-cgu{
+// padding-left: 6em;
+// }
+
+article{
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 2em;
+    text-align: justify;
+}
+p{
+    padding-bottom: 1em;
+}

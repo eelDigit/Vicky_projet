@@ -1,0 +1,35 @@
+@use "../generalities/variables";
+
+.entreprises{
+    font-family: variables.$text-font;
+}
+
+.encard-entreprises {
+  background-color: variables.$opacity-salmon;
+  color: variables.$marron;
+  padding: 4em;
+
+    article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2{
+    font-size: 2em;
+  }
+  p {
+    scroll-padding-inline-start: 20em;
+    padding-top: 5em;
+    font-size: 1em;
+  }
+}
+
+.explication-entreprises{
+    background-color: variables.$opacity-salmon;
+    color: variables.$marron;
+    margin: 10em;
+    border: none;
+    padding: 10em;
+    padding: 4em;
+
+}
